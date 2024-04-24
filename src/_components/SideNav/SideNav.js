@@ -5,7 +5,7 @@ function SideNav() {
 <aside className="main-sidebar sidebar-dark-primary elevation-4">
   <a href="index3.html" className="brand-link">
     <img src="/img/technosive.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{  width:"250", height:"236"}} />
-    <span className="brand-text font-weight-light">Technocards</span>
+    <span className="brand-text font-weight-light">Your COMPANY NAME</span>
   </a>
   {/* Sidebar */}
   <div className="sidebar">

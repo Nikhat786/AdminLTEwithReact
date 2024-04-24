@@ -15,6 +15,7 @@ function Create(props) {
   if(User){
     formData= User
     }
+    
  let handleChange=(event)=>{
   const { name, value } = event.target;
   setFormData({ ...formData, [name]: value });
@@ -22,7 +23,7 @@ function Create(props) {
   }
   let UserDetails=[]
  const localdata=(JSON.parse(localStorage.getItem('formData')))?JSON.parse(localStorage.getItem('formData')):[]
-  const [data, setData] = useState(localdata); 
+ const [data, setData] = useState(localdata); 
   
   console.log('data',data)
   localStorage.setItem('formData',[ data])
